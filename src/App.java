@@ -19,6 +19,7 @@ public class App {
 		
 		for (Map<String, String> filme : listaDeFilmes) {
 			System.out.println(filme.get("title"));
+			System.out.println(filme.get("image"));
 		}
 	}
 }
