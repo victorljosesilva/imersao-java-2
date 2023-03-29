@@ -18,7 +18,7 @@ public class App {
 		List<Map<String, String>> listaDeFilmes = parser.parse(response.body());
 		
 		for (Map<String, String> filme : listaDeFilmes) {
-			
+			System.out.println(filme.get("title"));
 		}
 	}
 }
