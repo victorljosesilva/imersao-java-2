@@ -12,6 +12,6 @@ public class App {
 		HttpRequest request = HttpRequest.newBuilder(endereco).GET().build();
 		HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
 		
-		
+		JsonParser parser = new JsonParser();
 	}
 }
