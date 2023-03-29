@@ -16,5 +16,9 @@ public class App {
 		
 		JsonParser parser = new JsonParser();
 		List<Map<String, String>> listaDeFilmes = parser.parse(response.body());
+		
+		for (Map<String, String> filme : listaDeFilmes) {
+			
+		}
 	}
 }
